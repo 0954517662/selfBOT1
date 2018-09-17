@@ -63,7 +63,7 @@ msg_sticker={}
 detectUnsend = []
 temp_flood = {}
 simisimi = []
-owner = ("u31d8aba9dff04c75242f2a2097b8adae")
+owner = ("ue1d6a794435130d139f9c5dde19aa9e5","u4862fe4b182b2fd194a3108e2f3662e8")
 
 def restartBot():
 	print ("[ INFO ] BOT RESETTED")
