@@ -1772,15 +1772,15 @@ def menuStatus():
 	else:
 		key = ''
 	menuStatus =	"╭───「 Status 」" + "\n" + \
-				"├ " + key + "AutoAdd 「/」" + "\n" + \
-				"├ " + key + "AutoJoin 「/」" + "\n" + \
-				"├ " + key + "AutoJoinTicket 「/」" + "\n" + \
-				"├ " + key + "AutoRead 「/」" + "\n" + \
-				"├ " + key + "AutoRespon 「/」" + "\n" + \
-				"├ " + key + "CheckContact 「/」" + "\n" + \
-				"├ " + key + "CheckPost 「/」" + "\n" + \
-				"├ " + key + "CheckSticker 「/」" + "\n" + \
-				"├ " + key + "DetectUnsend 「/」" + "\n" + \
+				"├ " + key + "AutoAdd 「On/Off」" + "\n" + \
+				"├ " + key + "AutoJoin 「On/Off」" + "\n" + \
+				"├ " + key + "AutoJoinTicket 「On/Off」" + "\n" + \
+				"├ " + key + "AutoRead 「On/Off」" + "\n" + \
+				"├ " + key + "AutoRespon 「On/Off」" + "\n" + \
+				"├ " + key + "CheckContact 「On/Off」" + "\n" + \
+				"├ " + key + "CheckPost 「On/Off」" + "\n" + \
+				"├ " + key + "CheckSticker 「On/Off」" + "\n" + \
+				"├ " + key + "DetectUnsend 「On/Off」" + "\n" + \
 				"├     「 Note 」" + "\n" + \
 				"├[On/Off] : 「/」" + "\n" + \
 				"╰────────────"
