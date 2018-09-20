@@ -15,7 +15,7 @@ try:
 				with open("authToken.txt", "r") as token:
 					authToken = token.read()
 					if not authToken:
-						client = LINE("EwuDzAX1HOChhzFJMivb.Sp/s6yipA4kI8lGDz1Jc/W./IDEYRL3fL3zmq9ikK8ECpVJH4UzuQa9BsSXAgUOX+U=")   #PH-13
+						client = LINE()
 						with open("authToken.txt","w") as token:
 							token.write(client.authToken)
 						continue
@@ -1048,7 +1048,7 @@ def clientBot(op):
 									ret_ += "\n╠ {}. @!".format(str(no))
 								ret_ += "\n╚════➢ Target {} ᴀʜʟɪ ᴋᴜʙᴜʀ".format(str(len(dataMid)))
 								client.sendMention(to, ret_, dataMid)
-								client.sendMessage(to, "Total {} ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ".format(str(len(midMembers))))
+								client.sendMessage(to, "Total {} Mention".format(str(len(midMembers))))
 						elif cmd == "lurk on":
 							tz = pytz.timezone("Asia/Jakarta")
 							timeNow = datetime.now(tz=tz)
